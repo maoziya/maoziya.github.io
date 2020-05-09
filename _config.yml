@@ -8,7 +8,7 @@ subtitle: mjl博客
 description: 闲来无事|打发时间
 keywords:
 author: mao zi ya
-language: zh-Hans
+language: zh-Hans 
 timezone: Asia/Shanghai
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next7
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

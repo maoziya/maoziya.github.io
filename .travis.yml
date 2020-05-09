@@ -16,7 +16,7 @@ before_install:
 
 - npm install -g hexo-cli
 - npm install hexo-generator-archive --save
-- git clone https://github.com/renyuzh/hexo-theme-next.git themes/next # 主题没有更改时不用每次都下载安装一遍
+- git clone https://github.com/theme-next/hexo-theme-next themes/next7  # 主题没有更改时不用每次都下载安装一遍
 install:
 # 不用yarn的话这里改成 npm i 即可
 - npm i
