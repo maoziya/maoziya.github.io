@@ -1,30 +1,38 @@
+#指定构建环境是Node.js，当前版本是稳定版
 language: node_js
 node_js:
   - 12.1 
-  
+
+# 设置钩子只检测blog-source分支的push变动
 branches:
   only:
-  - source
+    - source
 
+# 设置缓存文件
 cache:
-  apt: true
-  yarn: true
   directories:
     - node_modules
-# tarvis生命周期执行顺序详见官网文档
-before_install:
 
-- npm install -g hexo-cli
-- npm install hexo-generator-archive --save
-- git clone https://github.com/theme-next/hexo-theme-next themes/next  # 主题没有更改时不用每次都下载安装一遍
+#在构建之前安装hexo环境
+before_install:
+  - npm install -g hexo-cli
+  - npm install hexo-generator-archive --save
+
+#安装git插件和搜索功能插件
 install:
-# 不用yarn的话这里改成 npm i 即可
-- npm i
+  - npm install
+  
+#设置git提交名，邮箱；替换真实token到_config.yml文件
+before_script:
+  - git config user.name "maoziya"
+  - git config user.email "2361725307@qq.com"
+  # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
+  - sed -i "s/github_token/${mjl_token}/g" _config.yml || exit 1
+
+# 执行清缓存，生成网页操作
 script:
-- hexo clean
-- hexo generate
-after_success:
-  - git config --global user.name "maoziya"
-  - git config --global user.email "2361725307@qq.com"
-  - sed -i "s/gh_token/${mjl_token}/g" ./_config.yml
+  - hexo clean
+  - hexo generate
   - hexo deploy
+  
+  
