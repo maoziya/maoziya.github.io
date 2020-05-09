@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 毛佳乐
-subtitle: ''
-description: ''
+title: 雨过天晴
+subtitle: mjl博客
+description: 闲来无事|打发时间
 keywords:
 author: mao zi ya
-language: en
-timezone: ''
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
