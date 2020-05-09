@@ -17,7 +17,7 @@ cache:
 before_install:
   - npm install -g hexo-cli
   - npm install hexo-generator-archive --save
-
+  - git clone https://github.com/theme-next/hexo-theme-next themes/next  # 主题没有更改时不用每次都下载安装一遍
 #安装git插件和搜索功能插件
 install:
   - npm install
