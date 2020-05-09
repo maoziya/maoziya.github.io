@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - 12.1 
+  
+branches:
+  only:
+  - source
+
+cache:
+  apt: true
+  yarn: true
+  directories:
+    - node_modules
+# tarvis生命周期执行顺序详见官网文档
+before_install:
+
+- npm install -g hexo-cli
+- npm install hexo-generator-archive --save
+- git clone https://github.com/renyuzh/hexo-theme-next.git themes/next # 主题没有更改时不用每次都下载安装一遍
+install:
+# 不用yarn的话这里改成 npm i 即可
+- npm i
+script:
+- hexo clean
+- hexo generate
+after_success:
+  - git config --global user.name "maoziya"
+  - git config --global user.email "2361725307@qq.com"
+  - sed -i "s/gh_token/${mjl_token}/g" ./_config.yml
+  - hexo deploy
