@@ -116,5 +116,6 @@ deploy:
   type: git
   repo: 
      github: https://gh_token@github.com/maoziya/maoziya.github.io.git
-     coding: https://cd_token@e.coding.net/mjl_coding/maoziya.git
+     coding: https://mjl_coding:cd_token@e.coding.net/mjl_coding/maoziya.git
+     
   branch: master
