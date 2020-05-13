@@ -116,6 +116,6 @@ deploy:
   - type: git
     repo: https://gh_token@github.com/maoziya/maoziya.github.io.git    
     branch: master
-  - type: heroku
+  - type: git
     repo: https://cd_token@e.coding.net/mjl_coding/maoziya.git
     branch: master
