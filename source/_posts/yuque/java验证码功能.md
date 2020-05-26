@@ -44,8 +44,5 @@ public void verification(HttpServletResponse resp) throws FileNotFoundException,
  resp.getOutputStream().write(byteArray);
  resp.setContentType("image/jpeg;charset=UTF-8");
 }
-
-更新测试！！
-第 5 次测试！！
-第 00099 啊实打实的测试啊啊啊啊啊！超时间？？？！
+-------------测试是否成功。
 未完成，测试语雀自动推送 github
