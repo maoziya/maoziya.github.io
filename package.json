@@ -3,24 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-        "build": "hexo generate",
-        "clean": "hexo clean",
-        "server": "hexo server",
-        "sync": "yuque-hexo sync",
-        "clean:yuque": "yuque-hexo clean",
-        "deploy": "npm run sync && hexo clean && hexo g -d"
-	},
-   "yuqueConfig": {
-		"postPath": "source/_posts/yuque",
-		"cachePath": "yuque.json",
-		"mdNameFormat": "title",
-		"adapter": "hexo",
-		"concurrency": 5,
-		"baseUrl": "https://www.yuque.com/api/v2",
-		"login": "qingfengxulai-dkls3",    
-		"repo": "zzab4c",  
-		"onlyPublished": false,
-		"token": "OGMkOUsy9lXg6xNeAyfkeKbZPNkOAxZCGafCVyBN"     //语雀token
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "server": "hexo server",
+    "deploy": "hexo deploy"
   },
   "hexo": {
     "version": "4.2.0"
@@ -37,8 +23,7 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "live2d-widget-model-wanko": "^1.0.5"
+    "live2d-widget-model-wanko": "^1.0.5",
+    "yuque-hexo": "^1.6.5"
   }
-  
 }
-
