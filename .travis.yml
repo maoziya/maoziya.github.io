@@ -32,7 +32,8 @@ before_script:
 script:
   - hexo clean
   - hexo generate
-  - yuque-hexo sync #同步语雀文章
+  - yuque-hexo clean #清除语雀文章
+  - yuque-hexo sync  #同步语雀文章
   - hexo deploy
   
   
