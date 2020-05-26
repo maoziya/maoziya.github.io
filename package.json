@@ -7,15 +7,20 @@
         "clean": "hexo clean",
         "server": "hexo server",
         "sync": "yuque-hexo sync",
-		"clean:yuque": "yuque-hexo clean",
-		"deploy": "npm run sync && hexo clean && hexo g -d",
-   },
-  "yuqueConfig": {
+        "clean:yuque": "yuque-hexo clean",
+        "deploy": "npm run sync && hexo clean && hexo g -d"
+	},
+   "yuqueConfig": {
+		"postPath": "source/_posts/yuque",
+		"cachePath": "yuque.json",
+		"mdNameFormat": "title",
+		"adapter": "hexo",
+		"concurrency": 5,
 		"baseUrl": "https://www.yuque.com/api/v2",
 		"login": "qingfengxulai-dkls3",    
 		"repo": "zzab4c",  
-		"mdNameFormat": "title",
-		"postPath": "source/_posts/yuque"    
+		"onlyPublished": false,
+		"token": "OGMkOUsy9lXg6xNeAyfkeKbZPNkOAxZCGafCVyBN"     //语雀token
   },
   "hexo": {
     "version": "4.2.0"
