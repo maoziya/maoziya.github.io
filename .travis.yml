@@ -16,7 +16,7 @@ cache:
 #在构建之前安装hexo环境
 before_install:
   - npm install -g hexo-cli
-  - npm i -g yuque-hexo
+  - npm install -g yuque-hexo
   - npm install hexo-generator-archive --save
   - git clone https://github.com/maoziya/next.git themes/next  # 下载我的自定义主题
 #安装git插件和搜索功能插件
