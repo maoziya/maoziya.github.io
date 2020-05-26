@@ -6,9 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server",
-	"sync": "yuque-hexo sync",
-	"clean:yuque": "yuque-hexo clean",
-	"deploy": "npm run sync && hexo clean && hexo g -d"
+	"deploy": "hexo deploy"
   },
   "yuqueConfig": {
         "postPath": "source/_posts/yuque",
