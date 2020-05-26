@@ -1,7 +1,7 @@
 ---
 title: java验证码功能
 urlname: maegsc
-date: 2020-05-26 17:25:32 +0800
+date: 2020-05-26 21:23:12 +0800
 tags: []
 categories: []
 ---
@@ -47,5 +47,5 @@ public void verification(HttpServletResponse resp) throws FileNotFoundException,
 
 更新测试！！
 第 5 次测试！！
-第 N 次，，1232132，测试啊啊啊啊啊！！
+第 00099 啊实打实的测试啊啊啊啊啊！超时间？？？！
 未完成，测试语雀自动推送 github
