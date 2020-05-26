@@ -5,8 +5,8 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "server": "hexo server",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy",
+    "server": "hexo server"
   },
   "hexo": {
     "version": "4.2.0"
@@ -23,7 +23,6 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "live2d-widget-model-wanko": "^1.0.5",
-    "yuque-hexo": "^1.6.5"
+    "live2d-widget-model-wanko": "^1.0.5"
   }
 }
