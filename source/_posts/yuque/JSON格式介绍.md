@@ -6,8 +6,6 @@ tags: []
 categories: []
 ---
 
-<!--more-->
-
 JSON 格式：
 第一种，对象格式：
 {"a":"1","b":"2"}
@@ -63,6 +61,9 @@ JSONArray jsonArr = JSON.parseArray(str);
 
 Object、JSONObject、JSONArray、JavaBean、数组、List、Set、Map 都可以通过这种方式转 String
 String str= JSON.toJSONString(object);
+
+java 对象-->json 对象
+JSONObject obj = (JSONObject) JSON.toJSON(javabean);
 
 ### jackson 简单介绍***：***
 
