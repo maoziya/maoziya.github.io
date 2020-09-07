@@ -32,8 +32,8 @@ before_script:
 # 执行清缓存，生成网页操作
 script:
   - yuque-hexo clean #清除语雀文章
+  - hexo clean       #清楚原所有文章
   - yuque-hexo sync  #同步语雀文章
-  - hexo clean
   - hexo generate
   - hexo deploy
   
