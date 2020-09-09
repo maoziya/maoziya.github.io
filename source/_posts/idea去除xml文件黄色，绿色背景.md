@@ -2,9 +2,14 @@
 title: idea去除xml文件黄色，绿色背景
 urlname: rbo7wq
 date: 2020-09-01 13:37:56 +0800
-tags: []
-categories: []
+tags:
+  - idea
+categories: java
 ---
+
+idea设置去除xml文件黄色，绿色背景
+
+<!--more-->
 
 ### 去除黄色
 

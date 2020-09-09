@@ -1,10 +1,15 @@
 ---
-title: Autowired注入Mapper爆红
-urlname: guya12
-date: 2020-09-01 16:23:41 +0800
-tags: []
-categories: []
+title: 关于@Autowired在Mapper里爆红
+urlname: zo4vgq
+date: 2020-09-07 17:27:52 +0800
+tags:
+  - 注解
+categories: java
 ---
+
+关于 Autowired 注解在引入 mapper 接口爆红的原因
+
+<!--more-->
 
 原因：
 由于@Autowired 是 Spring 的注解，所以会提示找不到对他的 bean（爆红），原因是你没有显示的将 xxMapper 注入 Spring 容器中去管理。

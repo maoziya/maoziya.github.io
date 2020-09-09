@@ -2,9 +2,14 @@
 title: jquery on，绑定动态元素的事件，与data属性传值的格式
 urlname: kixgq7
 date: 2020-07-02 10:01:57 +0800
-tags: []
-categories: []
+tags:
+  - jquery事件
+categories: jquery
 ---
+
+jquery中on方法的介绍，与绑定动态元素的事件
+
+<!--more-->
 
 **官方语法： **
 \$(selector).on(event,childSelector,data,function)

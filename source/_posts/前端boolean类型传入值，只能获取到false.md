@@ -2,9 +2,14 @@
 title: 前端boolean类型传入值，只能获取到false
 urlname: gnsyem
 date: 2020-07-01 15:26:38 +0800
-tags: []
-categories: []
+tags:
+  - java基础类型
+categories: java
 ---
+
+关于boolean类型的get,set
+
+<!--more-->
 
 **问题：postman 中测试，传入 true/false 时，后端永远只能获取到 false，无法获取 true.**
 \*\*

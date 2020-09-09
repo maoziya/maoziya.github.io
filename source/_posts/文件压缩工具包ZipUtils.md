@@ -2,9 +2,14 @@
 title: 文件压缩工具包ZipUtils
 urlname: cu7e18
 date: 2020-06-19 09:58:12 +0800
-tags: []
-categories: []
+tags:
+  - java工具类
+categories: java
 ---
+
+java文件压缩工具类
+
+<!--more-->
 
 废话不多说了，参考代码如下，工具来自认识的朋友 GM。
 

@@ -2,9 +2,14 @@
 title: idea取消默认打开上次项目设置
 urlname: gmtwgc
 date: 2020-09-01 14:06:07 +0800
-tags: []
-categories: []
+tags:
+  - idea
+categories: java
 ---
+
+idea取消默认打开上次项目设置
+
+<!--more-->
 
 红色大框中，取消：Reopen last project on startup(在启动的时候打开上次项目)
 选择：Confirm application exit 点击 ok，完成

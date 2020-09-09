@@ -2,9 +2,14 @@
 title: java验证码功能
 urlname: maegsc
 date: 2020-05-26 21:23:12 +0800
-tags: []
-categories: []
+tags:
+  - java
+categories: java
 ---
+
+java验证码思路，简单demo
+
+<!--more-->
 
 思路：
 生成一个 UUID，将 4 位数验证码与 id 绑定，存入 redis,并设置有效时间。登录时前端传入 UUID，然后你去             redis 查询匹配的验证码，是否存在，是否正确。

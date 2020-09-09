@@ -31,8 +31,8 @@ before_script:
   - sed -i "s/gt_token/${ma_token}/g" ./_config.yml
 # 执行清缓存，生成网页操作
 script:
-  - yuque-hexo clean #清除语雀文章
   - hexo clean       #清楚原所有文章
+  - yuque-hexo clean #清除语雀文章
   - yuque-hexo sync  #同步语雀文章
   - hexo generate
   - hexo deploy

@@ -2,13 +2,10 @@
 title: java类的无参构造函数
 urlname: zyddsi
 date: 2020-09-07 09:09:42 +0800
-tags: []
-categories: []
----
-
 tags:
-  - java -构造函数
-categories: java
+  - java方法
+categories: java 
+---
 
 编程习惯，类，创建好无参构造的必要性。
 

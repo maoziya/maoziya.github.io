@@ -2,9 +2,15 @@
 title: SpringBoot定时任务保存日志为Ecexl文件
 urlname: qh9t1d
 date: 2020-06-18 18:48:31 +0800
-tags: []
-categories: []
+tags:
+  - springboot
+  - java方法
+categories: java
 ---
+
+定时任务，保存前天日志数据，形成 Execl 文件
+
+<!--more-->
 
 需求：定时任务，保存前天日志数据，形成 Execl 文件，并生成压缩包，然后删除日志数据
 参考代码如下：

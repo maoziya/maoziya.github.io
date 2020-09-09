@@ -2,9 +2,14 @@
 title: Excel工具类
 urlname: qa0dqt
 date: 2020-06-18 17:10:39 +0800
-tags: []
-categories: []
+tags:
+  - Excel
+categories: java
 ---
+
+xls 版本 Excel 工具类
+
+<!--more-->
 
 _**xls 版本 Excel 工具类**_
 _**本工具只对单文件操作**_

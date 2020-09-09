@@ -2,9 +2,15 @@
 title: java常用通用类
 urlname: vsrpqa
 date: 2020-06-18 10:45:19 +0800
-tags: []
-categories: []
+tags:
+  - java工具类
+categories: java
 ---
+
+java工具类：创建文件夹 生成随机数 给对象中的值加双引号
+            正则表达式-手机号验证 获取日期
+
+<!--more-->
 
 _**找方法最烦的事情，没有引入包！**_
 

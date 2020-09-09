@@ -2,9 +2,14 @@
 title: 如何屏蔽网站-Hosts
 urlname: gn37wr
 date: 2020-09-01 14:28:42 +0800
-tags: []
-categories: []
+tags:
+  - 杂文
+categories: 杂文
 ---
+
+屏蔽网站的方法
+
+<!--more-->
 
 进入 c 盘下的   C:\Windows\System32\drivers\etc
 修改文件 hosts   文件来屏蔽一些网站/ip
